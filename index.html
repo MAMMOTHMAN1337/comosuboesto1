@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainrot Italiano 🇮🇹</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(135deg, #009246 0%, #ffffff 50%, #ce2b37 100%);
+            min-height: 100vh;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3.5em;
+            color: #ce2b37;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            animation: bounce 1s ease infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.5em;
+            color: #009246;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .brainrot-card {
+            background: linear-gradient(135deg, #fff9e6 0%, #ffe6e6 100%);
+            border: 4px solid #009246;
+            border-radius: 20px;
+            padding: 30px;
+            margin: 25px 0;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .brainrot-card:hover {
+            transform: scale(1.03) rotate(1deg);
+            box-shadow: 0 10px 30px rgba(206, 43, 55, 0.4);
+        }
+
+        .brainrot-title {
+            font-size: 2em;
+            color: #ce2b37;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .emoji {
+            font-size: 1.2em;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .brainrot-description {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .example {
+            background: rgba(0, 146, 70, 0.1);
+            padding: 15px;
+            border-left: 5px solid #009246;
+            margin: 10px 0;
+            border-radius: 10px;
+            font-style: italic;
+        }
+
+        .meme-section {
+            text-align: center;
+            margin: 40px 0;
+            padding: 30px;
+            background: rgba(206, 43, 55, 0.1);
+            border-radius: 20px;
+        }
+
+        .meme-text {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #ce2b37;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            animation: glitch 1s infinite;
+        }
+
+        @keyframes glitch {
+            0% { text-shadow: 2px 2px #009246, -2px -2px #ce2b37; }
+            25% { text-shadow: -2px 2px #009246, 2px -2px #ce2b37; }
+            50% { text-shadow: 2px -2px #009246, -2px 2px #ce2b37; }
+            75% { text-shadow: -2px -2px #009246, 2px 2px #ce2b37; }
+            100% { text-shadow: 2px 2px #009246, -2px -2px #ce2b37; }
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.5em;
+            color: #009246;
+        }
+
+        .pasta-rain {
+            position: fixed;
+            font-size: 2em;
+            animation: fall 5s linear infinite;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        @keyframes fall {
+            to { transform: translateY(100vh) rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍕 BRAINROT ITALIANO 🍝</h1>
+        <p class="subtitle">Quando la cultura de internet se encuentra con la pasta 🤌</p>
+
+        <div class="brainrot-card">
+            <div class="brainrot-title">
+                <span class="emoji">🤌</span>
+                La Mano Italiana
+            </div>
+            <div class="brainrot-description">
+                El gesto más iconic del brainrot italiano. No es solo un emoji, es un estilo de vida. Se usa para TODO: cuando la pizza está buena, cuando algo no tiene sentido, cuando tu nonna te regaña...
+            </div>
+            <div class="example">
+                "Che cosa stai dicendo? 🤌🤌🤌"
+            </div>
+        </div>
+
+        <div class="brainrot-card">
+            <div class="brainrot-title">
+                <span class="emoji">🍝</span>
+                Spaghetti Code Mental
+            </div>
+            <div class="brainrot-description">
+                Cuando tu cerebro está tan enredado como un plato de spaghetti mal servido. Es el estado mental de procesar 17 conversaciones familiares al mismo tiempo durante la cena dominical.
+            </div>
+            <div class="example">
+                "Mi cervello è come spaghetti adesso... troppa información!"
+            </div>
+        </div>
+
+        <div class="brainrot-card">
+            <div class="brainrot-title">
+                <span class="emoji">🍕</span>
+                Pizza Time Mindset
+            </div>
+            <div class="brainrot-description">
+                La filosofía de vida italiana aplicada al internet: todo es mejor con pizza, y si no hay pizza, ¿para qué vivir? El ultimate brainrot gastronómico.
+            </div>
+            <div class="example">
+                "No pizza, no party, no life 🍕💯"
+            </div>
+        </div>
+
+        <div class="brainrot-card">
+            <div class="brainrot-title">
+                <span class="emoji">🎭</span>
+                Dramatic Italian Energy
+            </div>
+            <div class="brainrot-description">
+                Todo es un drama shakesperiano. Perdiste el bus? TRAGEDIA. Se acabó el queso parmesano? DI MAIO. Es la habilidad de convertir cualquier situación mundana en una opera italiana completa.
+            </div>
+            <div class="example">
+                "MAMMA MIA! 😱 Hanno finito il caffè!!! 😭💔"
+            </div>
+        </div>
+
+        <div class="meme-section">
+            <div class="meme-text">🤌 CAPISCE? 🤌</div>
+            <p style="margin-top: 20px; font-size: 1.3em; color: #333;">
+                El brainrot italiano no es solo un estado mental, es un arte. Es cuando comes pasta mientras scrolleas memes sobre pasta. Es cuando tu personalidad entera se convierte en gestos con las manos y referencias a la nonna.
+            </p>
+        </div>
+
+        <div class="brainrot-card">
+            <div class="brainrot-title">
+                <span class="emoji">☕</span>
+                Espresso Shot Consciousness
+            </div>
+            <div class="brainrot-description">
+                Tu cerebro funciona como un espresso italiano: rápido, intenso, y necesitas otro cada dos horas o colapasas. Es el nivel de energía caótica que solo la cafeína italiana puede proporcionar.
+            </div>
+            <div class="example">
+                "Senza caffè non posso funzionare ☕⚡"
+            </div>
+        </div>
+
+        <div class="brainrot-card">
+            <div class="brainrot-title">
+                <span class="emoji">🎵</span>
+                Tung Tung Sahur
+            </div>
+            <div class="brainrot-description">
+                El sonido que vive rent-free en tu cabeza. TUNG TUNG SAHUR! Es esa canción pegajosa que no puedes sacarte de la mente, mezclando ritmos extraños con palabras que ni siquiera sabes qué significan pero las cantas igual. Pure audio brainrot.
+            </div>
+            <div class="example">
+                "🎵 TUNG TUNG SAHUR TUNG TUNG SAHUR 🎵<br>*No puedes dejar de cantarlo durante 3 días seguidos*"
+            </div>
+        </div>
+
+        <div class="brainrot-card">
+            <div class="brainrot-title">
+                <span class="emoji">🎶</span>
+                Tralalero Tralalá
+            </div>
+            <div class="brainrot-description">
+                La manifestación vocal del caos puro. Cuando no sabes la letra pero igual cantas con confianza. TRALALERO TRALALÁ! Es el soundtrack de tu mente cuando está en modo autopiloto. No tiene sentido, no necesita tenerlo.
+            </div>
+            <div class="example">
+                "🎶 TRALALERO TRALALÁ TRALALERO TRALALÁ 🎶<br>*Tu cerebro a las 3 AM sin razón alguna*"
+            </div>
+        </div>
+
+        <div class="meme-section" style="background: linear-gradient(135deg, #ff6b9d 0%, #c06c84 100%);">
+            <div class="meme-text" style="color: white;">🎵 EAR WORM ZONE 🎵</div>
+            <p style="margin-top: 20px; font-size: 1.3em; color: white;">
+                Advertencia: Una vez que estas canciones entran en tu cerebro, no hay vuelta atrás. Vivirás cantando "Tung Tung Sahur" mientras haces la pasta y "Tralalero Tralalá" mientras scrolleas TikTok. Es el destino del brainrot italiano musical.
+            </p>
+        </div>
+
+        <div class="brainrot-card">
+            <div class="brainrot-title">
+                <span class="emoji">🎪</span>
+                Gondola Song Syndrome
+            </div>
+            <div class="brainrot-description">
+                Ese momento cuando cualquier canción italiana se convierte en una experiencia transcendental. No importa si es opera, trap italiano, o una canción random de TikTok - todo suena como si estuvieras en una góndola en Venecia viviendo tu mejor vida cinematográfica.
+            </div>
+            <div class="example">
+                "🎭 *Escucha cualquier canción italiana* 🎭<br>Tu cerebro: 'Esto es ARTE, esto es CULTURA, esto es... TUNG TUNG SAHUR'"
+            </div>
+        </div>
+
+        <div class="brainrot-card">
+            <div class="brainrot-title">
+                <span class="emoji">🔊</span>
+                Volume Italiano Infinito
+            </div>
+            <div class="brainrot-description">
+                Cuando cantas estas canciones, el volumen NO es opcional. TIENE que ser al máximo. TRALALERO TRALALÁ se canta con el pecho, con el alma, con TODO. Los vecinos? Ellos también necesitan experimentar el brainrot italiano musical.
+            </div>
+            <div class="example">
+                "🔊🔊🔊 TUNG TUNG SAHUR!!! 🔊🔊🔊<br>*Los vecinos llaman a la policía*<br>*Pero tú sigues: TRALALERO TRALALÁ!!!*"
+            </div>
+        </div>
+
+        <div class="brainrot-card">
+            <div class="brainrot-title">
+                <span class="emoji">🧠</span>
+                Loop Mental Permanente
+            </div>
+            <div class="brainrot-description">
+                Tu cerebro ahora funciona como un reproductor de música roto. Todo se convierte en "Tung Tung Sahur" o "Tralalero Tralalá". Haciendo tarea? Tung tung sahur. En el gym? Tralalero tralalá. Durmiendo? AMBAS AL MISMO TIEMPO en un mashup caótico.
+            </div>
+            <div class="example">
+                "🧠💭 Cerebro interno 24/7:<br>🎵 Tung tung sahur tralalero tralalá tung tung tralalero sahur tralalá 🎵<br>*No hay escape, solo hay música*"
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>🇮🇹 Fatto con amore e troppa pasta 🇮🇹</p>
+            <p style="font-size: 0.8em; margin-top: 10px;">🤌🤌🤌</p>
+        </div>
+    </div>
+
+    <script>
+        // Pasta rain effect
+        setInterval(() => {
+            if (Math.random() > 0.7) {
+                const pasta = document.createElement('div');
+                pasta.className = 'pasta-rain';
+                pasta.textContent = ['🍝', '🍕', '🤌', '☕'][Math.floor(Math.random() * 4)];
+                pasta.style.left = Math.random() * 100 + '%';
+                pasta.style.animationDuration = (Math.random() * 3 + 3) + 's';
+                document.body.appendChild(pasta);
+                setTimeout(() => pasta.remove(), 5000);
+            }
+        }, 300);
+
+        // Add click effects to cards
+        document.querySelectorAll('.brainrot-card').forEach(card => {
+            card.addEventListener('click', function() {
+                this.style.transform = 'scale(1.05) rotate(' + (Math.random() * 6 - 3) + 'deg)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 300);
+            });
+        });
+    </script>
+</body>
+</html>
